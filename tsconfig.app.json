@@ -23,12 +23,18 @@
     "noUncheckedSideEffectImports": true,
     //配置生成.d.ts打包
     "declaration": true,
+    //配置允许ts后缀导入
     "allowImportingTsExtensions": true,
+    // 配置仅仅生成声明文件
     "emitDeclarationOnly": true,
+    // 配置生成声明文件映射
     "declarationMap": true,
+    // 配置输出目录
     "outDir": "./dist",
+    // 配置输入目录
     "rootDir": "./src"
   },
+  //指定要生成声明文件的ts文件
   "include": [
     "src/bridge/**/*.ts",
     "src/index.ts"
